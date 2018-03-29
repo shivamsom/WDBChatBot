@@ -18,3 +18,6 @@ D:\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Propert
 D:\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csproj.GenerateResource.Cache
 D:\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\WDB.bubble.resources
 D:\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\WDB.Form1.resources
+D:\BE-Project\WDBChatBot\ChatBotProject\bin\Debug\ChatBotProject.exe.config
+D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\ChatBotProject.exe
+D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\ChatBotProject.pdb

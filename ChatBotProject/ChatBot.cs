@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AIMLbot;
 
-namespace WDB
+
+namespace WDBChatBot
 {
     public partial class ChatBot
     {
         const string UserId = "szabist";
-        private Bot AimlBot;
-        private User myUser;
+
 
         public ChatBot()
         {

@@ -1,4 +1,5 @@
-﻿namespace WDB
+﻿namespace WDBChatBot
+
 {
     partial class Form1
     {
@@ -32,7 +33,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtTyping = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.close = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -44,9 +44,8 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.clearChatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toggleVoiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bubble1 = new WDB.bubble();
+            this.bubble1 = new WDBChatBot.bubble();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -68,28 +67,13 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(769, 49);
+            this.panel1.Size = new System.Drawing.Size(758, 49);
             this.panel1.TabIndex = 4;
-            // 
-            // close
-            // 
-            this.close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
-            this.close.Location = new System.Drawing.Point(737, 15);
-            this.close.Margin = new System.Windows.Forms.Padding(4);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(21, 20);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close.TabIndex = 2;
-            this.close.TabStop = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // label1
             // 
@@ -137,7 +121,7 @@
             this.InputTxt.Location = new System.Drawing.Point(68, 496);
             this.InputTxt.Margin = new System.Windows.Forms.Padding(5);
             this.InputTxt.Name = "InputTxt";
-            this.InputTxt.Size = new System.Drawing.Size(631, 54);
+            this.InputTxt.Size = new System.Drawing.Size(504, 54);
             this.InputTxt.TabIndex = 5;
             this.InputTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.InputTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputTxt_KeyDown);
@@ -148,7 +132,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageActive = null;
-            this.button1.Location = new System.Drawing.Point(708, 498);
+            this.button1.Location = new System.Drawing.Point(589, 498);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 54);
@@ -170,7 +154,7 @@
             this.panel2.Location = new System.Drawing.Point(9, 57);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(748, 431);
+            this.panel2.Size = new System.Drawing.Size(629, 431);
             this.panel2.TabIndex = 7;
             // 
             // menuButton
@@ -233,7 +217,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(824, 580);
+            this.ClientSize = new System.Drawing.Size(657, 580);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
@@ -250,7 +234,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -268,16 +251,16 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox close;
         private Bunifu.Framework.UI.BunifuMaterialTextbox InputTxt;
         private Bunifu.Framework.UI.BunifuImageButton button1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel panel2;
-        private bubble bubble1;
+       
         private Bunifu.Framework.UI.BunifuImageButton menuButton;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem clearChatToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toggleVoiceToolStripMenuItem;
+        private bubble bubble1;
     }
 }
 

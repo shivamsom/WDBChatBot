@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WDB
+namespace WDBChatBot
 {
     public partial class bubble : UserControl
     {

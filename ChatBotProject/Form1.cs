@@ -4,7 +4,7 @@ using System.Media;
 using System.IO; // needed for filing
 using System.Speech.Synthesis;
 
-namespace WDB { 
+namespace WDBChatBot { 
     public partial class Form1 : Form
     {
         public Form1()

@@ -1,4 +1,4 @@
-﻿namespace WDB
+﻿namespace WDBChatBot
 {
     partial class bubble
     {
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.lblmessage = new System.Windows.Forms.Label();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.SuspendLayout();
             // 
             // lblmessage
@@ -44,7 +44,7 @@
             this.lblmessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmessage.Name = "lblmessage";
             this.lblmessage.Size = new System.Drawing.Size(68, 38);
-            this.lblmessage.TabIndex = 2;
+             this.lblmessage.TabIndex = 2;
             this.lblmessage.Text = "I\'m a Barbie girl in the Barbie world. Life in plastic, it\'s fantastic! You can b" +
     "rush my hair, undress me everywhere. Imagination, life is your creation. Come on" +
     ", Barbie, let\'s go party!";
