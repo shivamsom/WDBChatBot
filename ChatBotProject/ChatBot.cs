@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace WDBChatBot
+namespace WDB
 {
     public partial class ChatBot
     {

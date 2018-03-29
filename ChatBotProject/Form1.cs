@@ -4,7 +4,7 @@ using System.Media;
 using System.IO; // needed for filing
 using System.Speech.Synthesis;
 
-namespace WDBChatBot { 
+namespace WDB { 
     public partial class Form1 : Form
     {
         public Form1()
@@ -185,7 +185,7 @@ namespace WDBChatBot {
         // Custom close button to close the program when clicked.
         private void close_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+          //  Environment.Exit(0);
         }
         
         // Clear all the bubbles and chat.log

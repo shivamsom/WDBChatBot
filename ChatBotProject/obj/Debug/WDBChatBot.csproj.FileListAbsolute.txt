@@ -2,9 +2,9 @@ D:\BE-Project\WDBChatBot\ChatBotProject\bin\Debug\ChatBotProject.exe.config
 D:\BE-Project\WDBChatBot\ChatBotProject\bin\Debug\ChatBotProject.exe
 D:\BE-Project\WDBChatBot\ChatBotProject\bin\Debug\ChatBotProject.pdb
 D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDBChatBot.csprojResolveAssemblyReference.cache
-D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDBChatBot.bubble.resources
-D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDBChatBot.Form1.resources
 D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\ChatBotProject.Properties.Resources.resources
 D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDBChatBot.csproj.GenerateResource.Cache
 D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\ChatBotProject.exe
 D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\ChatBotProject.pdb
+D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDB.bubble.resources
+D:\BE-Project\WDBChatBot\ChatBotProject\obj\Debug\WDB.Form1.resources

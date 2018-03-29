@@ -1,4 +1,4 @@
-﻿namespace WDBChatBot
+﻿namespace WDB
 {
     partial class bubble
     {

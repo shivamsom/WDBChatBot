@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WDBChatBot
+namespace WDB
 {
     public partial class bubble : UserControl
     {
@@ -42,7 +42,7 @@ namespace WDBChatBot
             SizeF size = g.MeasureString(lblmessage.Text, lblmessage.Font, lblmessage.Width);
 
             // Set the height for the bubble
-            lblmessage.Height = int.Parse(Math.Round(size.Height +10 , 0).ToString());
+            lblmessage.Height = int.Parse(Math.Round(size.Height +2 , 0).ToString());
            
         }
 
